@@ -1,13 +1,15 @@
-# @webmaeistro/gatsby-plugin-universal-menus
+# gatsby-plugin-universal-menus
 
-A menu plugin for [Gatsby](http://gatsbyjs.org) that allows for infinitely nested menus can also be extended to load menus from any source.
+A menu plugin for [Gatsby](http://gatsbyjs.org) that allows for infinitely nested menus. Can also be extended to load menus from any source.
 
-Full support for extracting menus defined in markdown.
+Full support for extracting menus defined in markdown from soiurce-filesystem.
+
+:Martin Andersen <marander@pm.me> (@webmaistro)
 
 ## Install
 
 ``
-`npm install --save @webmaeistro/gatsby-plugin-universal-menus`
+`npm install --save gatsby-plugin-universal-menus`
 ``
 
 ## How to use
@@ -18,7 +20,7 @@ Full support for extracting menus defined in markdown.
 // gatsby-config.js
 plugins: [
   {
-    resolve: '@webmaeistro/gatsby-plugin-universal-menus',
+    resolve: 'gatsby-plugin-universal-menus',
     options: {
       // static definition of menu items (optional)
       menus: {
@@ -144,7 +146,7 @@ It is possible to override the default behavior of extracting menu items from Ma
 // gatsby-config.js
 plugins: [
   {
-    resolve: '@webmaeistro/gatsby-plugin-universal-menus',
+    resolve: 'gatsby-plugin-universal-menus',
     options: {
       ...// custom menu loading function (optional)
       menuLoader: customLoaderFunction,

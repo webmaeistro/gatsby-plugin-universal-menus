@@ -2,8 +2,8 @@
   "name": "gatsby-plugin-universal-menus",
   "description": "Gatsby plugin universal menus. Unlimited nested menus. source from local markdown files or source from anywhere",
   "private": false,
-  "author": "@webmaeistro Martin Andersen",
-  "version": "0.1.6",
+  "author": "Martin Andersen <marander@pm.me> (@webmaistro)",
+  "version": "0.1.7",
   "keywords": [
     "markdown",
     "universal",
